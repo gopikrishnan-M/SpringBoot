@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="student.js"></script>
+</head>
+<body>
+    <h1>After some long days</h1>
+    <button onclick="getStudents()"> GET </button>
+    <br>
+    <form action="http://localhost:8080/add/student" method="post">
+        <label for="roll">Roll:</label>
+        <input name="roll" type="number">
+        <br>
+        <label for="name">Name:</label>
+        <input name="name" type="text">
+        <br>
+        <label for="gender">Gender:</label>
+        <input name="gender" type="text">
+        <br>
+        <label for="technology">Technology:</label>
+        <input name="technology" type="text">
+        <br>
+        <button type="submit">submit</button>
+    </form>
+
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en"
+    xmlns:th="http://www.thymelead.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Selection expression</title>
+</head>
+<body>
+<h1>Selection expression</h1>
+<h2>User Details:</h2>
+<div th:object="${userselect}">
+    <p> Roll : <strong th:text="*{roll}"></strong></p>
+    <p> Name : <strong th:text="*{name}"></strong></p>
+    <p> Email : <strong th:text="*{email}"></strong></p>
+</div>
+
+</body>
+</html>

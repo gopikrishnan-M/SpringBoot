@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en"
+    xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Link Expression</title>
+</head>
+<body>
+<h1>Link expression:</h1>
+<!--you can use any file path link to in href here we use already presen variable expression -->
+<a th:href="@{/variableExpression}">tis will take to variable expression</a>
+<a th:href="@{/messageExpression}">tis will take to Message expression</a>
+
+</body>
+</html>
